@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            
+            width:300px;
+            height: 300px;
+            margin-left: 500px;
+            margin-top: 100px;
+            justify-content: center;
+            align-items: center;
+            
+            box-shadow: inset 5px 6px 7px rgb(190, 190, 207),
+                                 4px 2px 4px rgb(171, 171, 215);
+           text-align: center;
+
+           
+
+        }
+        h2{
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            color: blue;
+        }
+        input{
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid blue;
+            width:250px;
+            height: 30px;
+        }
+        #btn{
+            background-color: blue;
+            color:azure;
+            font-size: 1.2rem;
+            height: 35px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="div">
+<h2>Login</h2>
+<form action="/login" method="post">
+<input type="name" name="email" placeholder="name" autocomplete="off"><br >
+<input type="password" name="password" placeholder="password" autocomplete="off" ><br >
+<input type="submit" id="btn">
+
+</form>
+<a href="/signup"> make a new account</a> 
+</div>
+
+
+
+</body>
+</html>
